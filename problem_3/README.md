@@ -45,6 +45,9 @@ The macro fires 500,000 alphas (≈ 10⁵ per source line) and writes
 ./build/problem_3
 ```
 
+![Geometry Setup](results/vis_setup.png)
+![Simulation Run](results/vis_run.png)
+
 ## Results
 
 Each source line produces a Gaussian-like peak in the silicon detector, shifted *below* the source energy by the energy lost in 10 mm of air. Lower-energy alphas lose more (because dE/dx ~ 1/v²).

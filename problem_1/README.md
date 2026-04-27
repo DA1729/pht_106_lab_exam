@@ -39,6 +39,9 @@ Each runs 200,000 primaries and produces a CSV under `results/`:
 ./build/problem_1
 ```
 
+![Geometry Setup](results/vis_setup.png)
+![Simulation Run](results/vis_run.png)
+
 ## Results
 
 The 0.5 mm Al casing absorbs nearly all of the dominant 514 keV β⁻ branch (extrapolated range in Al ≈ 1.5 mm), so the interaction fraction in NaI drops by roughly two orders of magnitude. Only the high-energy tail from the minor 1176 keV branch survives the casing, which is why the *mean* energy deposited per surviving event is *higher* with the casing than without.

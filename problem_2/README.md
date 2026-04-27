@@ -50,6 +50,9 @@ Each `beamOn` is 5,000 alphas. The output filename for each run is set by `/io/o
 ./build/problem_2
 ```
 
+![Geometry Setup](results/vis_setup.png)
+![Simulation Run](results/vis_run.png)
+
 ## Results
 
 Each curve shows the characteristic ionisation profile: a slow rise as the alpha slows down, a sharp Bragg peak, then a fast cutoff at end of range. The peak heights are nearly constant across energies (~120 keV/bin in air, ~130 keV/bin in Si) because dE/dx near the end of range depends only weakly on initial energy.
