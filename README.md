@@ -1,7 +1,7 @@
 # PHT-106 Lab Exam (Experimental Techniques in Charged Particle Spectroscopy)
 
 Geant4 simulations submitted for the lab examination of **PHT-106 (Experimental Techniques in Charged Particle Spectroscopy)**.
-
+|                   |                                        |
 |-------------------|----------------------------------------|
 | Name              | Daksh Pandey                           |
 | Enrollment No.    | 23123013                               |
