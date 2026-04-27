@@ -1,1 +1,2 @@
-# pht_106_lab_exam
+# PHT-106 (Charged Particles Spectroscopy Exam)
+

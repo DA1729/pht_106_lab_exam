@@ -1,0 +1,5 @@
+/det/casing G4_AIR
+/run/initialize
+/analysis/setFileName ../results/results_without_al
+/run/printProgress 10000
+/run/beamOn 200000
