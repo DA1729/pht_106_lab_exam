@@ -1,0 +1,4 @@
+/run/initialize
+/analysis/setFileName ../results/spectrum
+/run/printProgress 50000
+/run/beamOn 500000

@@ -17,13 +17,14 @@ int main(int argc, char** argv)
 
   G4RunManager* run_manager = new G4RunManager;
 
-  run_manager->SetUserInitialization(new detector_construction());
+  auto detector = new detector_construction();
+  run_manager->SetUserInitialization(detector);
 
   G4VModularPhysicsList* physics_list = new FTFP_BERT;
   physics_list->ReplacePhysics(new G4EmStandardPhysics_option4());
   run_manager->SetUserInitialization(physics_list);
 
-  run_manager->SetUserInitialization(new action_initialization());
+  run_manager->SetUserInitialization(new action_initialization(detector));
 
   G4VisManager* vis_manager = new G4VisExecutive;
   vis_manager->Initialize();

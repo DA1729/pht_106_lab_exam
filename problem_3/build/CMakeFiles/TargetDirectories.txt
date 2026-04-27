@@ -1,0 +1,3 @@
+/home/vincent/geant4_work/lab_exam/problem_3/build/CMakeFiles/problem_3.dir
+/home/vincent/geant4_work/lab_exam/problem_3/build/CMakeFiles/edit_cache.dir
+/home/vincent/geant4_work/lab_exam/problem_3/build/CMakeFiles/rebuild_cache.dir
