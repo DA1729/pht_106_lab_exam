@@ -1,0 +1,25 @@
+/det/material air
+/run/initialize
+
+/gun/particle alpha
+/run/printProgress 2000
+
+/gun/energy 4 MeV
+/io/output ../results/bragg_air_4MeV
+/run/beamOn 5000
+
+/gun/energy 5 MeV
+/io/output ../results/bragg_air_5MeV
+/run/beamOn 5000
+
+/gun/energy 6 MeV
+/io/output ../results/bragg_air_6MeV
+/run/beamOn 5000
+
+/gun/energy 7 MeV
+/io/output ../results/bragg_air_7MeV
+/run/beamOn 5000
+
+/gun/energy 8 MeV
+/io/output ../results/bragg_air_8MeV
+/run/beamOn 5000
