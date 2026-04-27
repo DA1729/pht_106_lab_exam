@@ -1,13 +1,13 @@
-# Problem 3 — Spectrum of a Mixed 4–8 MeV Alpha Source in Air
+# Problem 3: Spectrum of a Mixed 4–8 MeV Alpha Source in Air
 
-Simulation of the energy spectrum recorded by a silicon detector when a point alpha source — emitting equally at 4, 5, 6, 7, and 8 MeV — sits 10 mm away in air. Each event picks one of the five energies uniformly at random; total statistics ≈ 10⁵ alphas per source line.
+Simulation of the energy spectrum recorded by a silicon detector when a point alpha source, emitting equally at 4, 5, 6, 7, and 8 MeV, sits 10 mm away in air. Each event picks one of the five energies uniformly at random; total statistics ≈ 10⁵ alphas per source line.
 
 ## Geometry
 
 - **World:** Air-filled box, 50 × 50 × 30 mm (full extents).
 - **Source:** Point at z = -5 mm on the world axis, alphas emitted along +z.
 - **Air gap:** 10 mm between source and detector front face.
-- **Detector:** Silicon slab, 20 × 20 × 0.1 mm (100 µm thick — comfortably thicker than the 8 MeV alpha range in Si of ~47 µm, so each alpha is fully stopped and its full residual energy is deposited).
+- **Detector:** Silicon slab, 20 × 20 × 0.1 mm (100 µm thick, comfortably thicker than the 8 MeV alpha range in Si of ~47 µm, so each alpha is fully stopped and its full residual energy is deposited).
 - **Physics:** `FTFP_BERT` with `G4EmStandardPhysics_option4`.
 
 The primary generator picks a random energy from `{4, 5, 6, 7, 8} MeV` (uniform) per event. The event action records both the per-event energy deposit in Si and the source energy of the primary, so the combined spectrum can be decomposed by source line in post.

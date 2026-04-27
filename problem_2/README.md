@@ -1,4 +1,4 @@
-# Problem 2 — Bragg Curves of Alpha Particles in Air and Silicon
+# Problem 2: Bragg Curves of Alpha Particles in Air and Silicon
 
 Simulation of energy deposition (Bragg) curves for monoenergetic alpha particles at 4, 5, 6, 7, and 8 MeV traversing two absorbers: air and silicon.
 

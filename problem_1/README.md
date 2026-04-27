@@ -1,4 +1,4 @@
-# Problem 1 — Cs-137 Beta Deposition in NaI(Tl)
+# Problem 1: Cs-137 Beta Deposition in NaI(Tl)
 
 Simulation of Cs-137 beta-minus energy deposition in a 1″ × 1″ cylindrical NaI crystal, comparing a bare crystal against the same crystal encased in a 0.5 mm aluminium housing. The source is placed 5 mm in front of the crystal face on the cylinder axis.
 
@@ -41,7 +41,7 @@ Each runs 200,000 primaries and produces a CSV under `results/`:
 
 ## Results
 
-The 0.5 mm Al casing absorbs nearly all of the dominant 514 keV β⁻ branch (extrapolated range in Al ≈ 1.5 mm), so the interaction fraction in NaI drops by roughly two orders of magnitude. Only the high-energy tail from the minor 1176 keV branch survives the casing — that is why the *mean* energy deposited per surviving event is *higher* with the casing than without.
+The 0.5 mm Al casing absorbs nearly all of the dominant 514 keV β⁻ branch (extrapolated range in Al ≈ 1.5 mm), so the interaction fraction in NaI drops by roughly two orders of magnitude. Only the high-energy tail from the minor 1176 keV branch survives the casing, which is why the *mean* energy deposited per surviving event is *higher* with the casing than without.
 
 | Quantity                                  | Without Al | With 0.5 mm Al |
 |-------------------------------------------|-----------:|---------------:|
@@ -78,4 +78,4 @@ python3 plot_results.py
 - `run_with_al.mac`, `run_without_al.mac`: Batch-mode macros for the two configurations.
 - `init_vis.mac`, `vis.mac`: Visualization configuration.
 - `plot_results.py`: Data analysis and plotting script.
-- `results/`: Output directory — ntuple CSVs and PNG plots.
+- `results/`: Output directory holding ntuple CSVs and PNG plots.
